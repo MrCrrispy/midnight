@@ -84,7 +84,7 @@ midnight:
   md-slider-pressed-state-layer-color: "var(--accent-color)"
   md-slider-inactive-track-color: "var(--secondary-background-color)"
   
-  # unchecked switch
+  ## Unchecked switch
   ha-switch-background-color: "#5B616B"
   ha-switch-background-color-hover: "#5B616B"
   ha-switch-border-color: "var(--disabled-text-color)"
@@ -92,7 +92,7 @@ midnight:
   ha-switch-thumb-background-color-hover: "var(--disabled-text-color)"
   ha-switch-thumb-border-color: "var(--disabled-text-color)"
 
-  # checked switch
+  ## Checked switch
   ha-switch-checked-background-color: "var(--accent-color-dark)" 
   ha-switch-checked-background-color-hover: "var(--accent-color-dark)"
   ha-switch-checked-border-color: "var(--accent-color)"
@@ -102,12 +102,16 @@ midnight:
   ha-switch-checked-thumb-border-color: "var(--accent-color)"
   ha-switch-checked-thumb-border-color-hover: "var(--accent-color)"
   
-  #Set some other switches to the same size as on cards
+  ## Set some other switches to the same size as on cards
   ha-switch-thumb-size: "14px"
   ha-switch-size: "20px"
   ha-switch-width: "38px"
+# ha-switch-thumb-box-shadow
+# ha-switch-disabled-opacity
+# ha-switch-required-marker
+# ha-switch-required-marker-offset
   
-  #checkbox
+  ## Checkbox
   ha-checkbox-border-color: "var(--disabled-text-color)"
   ha-checkbox-border-color-hover: "var(--accent-color)"
   ha-checkbox-background-color: "var(--primary-background-color)"
@@ -121,3 +125,40 @@ midnight:
 # ha-checkbox-border-width
 # ha-checkbox-required-marker
 # ha-checkbox-required-marker-offset
+
+  ## Tooltips, and others
+  ha-color-surface-default: "var(--paper-listbox-background-color)"
+# ha-color-surface-low
+# ha-color-surface-lower
+# ha-color-surface-default-inverted
+# ha-color-surface-low-inverted
+# ha-color-surface-lower-inverted
+
+
+  ## Labels, forms, lists, buttons, etc.
+  form-hover: "#3A4352"
+  
+  ha-color-form-background: "var(--primary-background-color)"
+  ha-color-form-background-hover: "var(--form-hover)"
+  ha-color-form-background-disabled: "var(--disabled-text-color)"
+  
+  ha-color-text-primary: "var(--primary-text-color)"
+  ha-color-text-secondary: "var(--accent-color)"
+  ha-color-text-disabled: "var(--disabled-text-color)"
+  
+  ## HA 2026.3+ Web Awesome / small subset of semantic color variables
+  ha-color-fill-primary-quiet-resting: "var(--form-hover)"
+  ha-color-fill-primary-quiet-hover: "var(--accent-color-dark)" 
+  ha-color-fill-primary-quiet-active: "var(--accent-color)" 
+
+  ha-color-fill-primary-normal-resting: "var(--form-hover)" 
+  ha-color-fill-primary-normal-hover: "var(--accent-color-dark)"
+  ha-color-fill-primary-normal-active: "var(--accent-color)"
+
+  ha-color-fill-neutral-quiet-resting: "var(--form-hover)"
+  ha-color-fill-neutral-quiet-hover: "var(--accent-color-dark)"
+  ha-color-fill-neutral-quiet-active: "var(--accent-color)"
+
+  ha-color-fill-neutral-normal-resting: "var(--form-hover)"
+  ha-color-fill-neutral-normal-hover: "var(--accent-color-dark)"
+  ha-color-fill-neutral-normal-active: "var(--accent-color)"
