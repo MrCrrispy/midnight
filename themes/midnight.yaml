@@ -4,7 +4,9 @@
 #
 midnight:
   accent-color: "#E45E65"
+  accent-color-dark: "#93535C"
   card-background-color: "var(--primary-background-color)"
+  clear-background-color: "var(--secondary-background-color)"
   dark-primary-color: "var(--accent-color)"
   disabled-text-color: "#7F848E"
   divider-color: "rgba(0, 0, 0, .12)"
@@ -59,10 +61,6 @@ midnight:
   state-icon-active-color: "#FDD835"
   state-icon-color: "#44739e"
   state-icon-unavailable-color: "var(--disabled-text-color)"
-  switch-checked-color: "var(--paper-toggle-button-checked-button-color)"
-  switch-unchecked-button-color: "var(--disabled-text-color)"
-  switch-unchecked-color: "var(--disabled-text-color)"
-  switch-unchecked-track-color: "var(--disabled-text-color)"
   table-row-alternative-background-color: "#3E424B"
   table-row-background-color: "#353840"
   text-primary-color: "var(--primary-text-color)"
@@ -85,4 +83,41 @@ midnight:
   md-slider-label-container-color: "var(--accent-color)"
   md-slider-pressed-state-layer-color: "var(--accent-color)"
   md-slider-inactive-track-color: "var(--secondary-background-color)"
-  clear-background-color: "var(--secondary-background-color)"
+  
+  # unchecked switch
+  ha-switch-background-color: "#5B616B"
+  ha-switch-background-color-hover: "#5B616B"
+  ha-switch-border-color: "var(--disabled-text-color)"
+  ha-switch-thumb-background-color: "var(--disabled-text-color)"
+  ha-switch-thumb-background-color-hover: "var(--disabled-text-color)"
+  ha-switch-thumb-border-color: "var(--disabled-text-color)"
+
+  # checked switch
+  ha-switch-checked-background-color: "var(--accent-color-dark)" 
+  ha-switch-checked-background-color-hover: "var(--accent-color-dark)"
+  ha-switch-checked-border-color: "var(--accent-color)"
+  ha-switch-checked-border-color-hover: "var(--accent-color)"
+  ha-switch-checked-thumb-background-color: "var(--accent-color)"
+  ha-switch-checked-thumb-background-color-hover: "var(--accent-color)"
+  ha-switch-checked-thumb-border-color: "var(--accent-color)"
+  ha-switch-checked-thumb-border-color-hover: "var(--accent-color)"
+  
+  #Set some other switches to the same size as on cards
+  ha-switch-thumb-size: "14px"
+  ha-switch-size: "20px"
+  ha-switch-width: "38px"
+  
+  #checkbox
+  ha-checkbox-border-color: "var(--disabled-text-color)"
+  ha-checkbox-border-color-hover: "var(--accent-color)"
+  ha-checkbox-background-color: "var(--primary-background-color)"
+  ha-checkbox-background-color-hover: "var(--primary-background-color)"
+  ha-checkbox-checked-background-color: "var(--accent-color)"
+  ha-checkbox-checked-background-color-hover: "var(--accent-color-dark)"
+  ha-checkbox-checked-icon-color: "var(--primary-text-color)"
+# ha-checkbox-size
+# ha-checkbox-checked-icon-scale
+# ha-checkbox-border-radius
+# ha-checkbox-border-width
+# ha-checkbox-required-marker
+# ha-checkbox-required-marker-offset
