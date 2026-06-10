@@ -126,6 +126,22 @@ midnight:
 # ha-checkbox-required-marker
 # ha-checkbox-required-marker-offset
 
+  ## Radio button
+  ha-radio-option-active-color: "var(--accent-color)"
+  ha-radio-option-border-color: "var(--disabled-text-color)"
+  ha-radio-option-border-color-hover: "var(--accent-color)"
+  ha-radio-option-background-color: "var(--primary-background-color)"
+  ha-radio-option-background-color-hover: "var(--primary-background-color)"
+  ha-radio-option-checked-background-color: "var(--primary-background-color)"
+  ha-radio-option-checked-icon-color: "var(--accent-color)"
+  # ha-radio-group-required-marker
+  # ha-radio-group-required-marker-offset
+  # ha-radio-option-toggle-size
+  # ha-radio-option-border-width  
+  # ha-radio-option-checked-icon-scale
+  # ha-radio-option-control-margin
+  # ha-radio-option-heigh
+
   ## Tooltips, and others
   ha-color-surface-default: "var(--paper-listbox-background-color)"
 # ha-color-surface-low
