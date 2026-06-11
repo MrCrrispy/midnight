@@ -114,8 +114,8 @@ midnight:
   ## Checkbox
   ha-checkbox-border-color: "var(--disabled-text-color)"
   ha-checkbox-border-color-hover: "var(--accent-color)"
-  ha-checkbox-background-color: "var(--primary-background-color)"
-  ha-checkbox-background-color-hover: "var(--primary-background-color)"
+  ha-checkbox-background-color: "#11111100"
+  ha-checkbox-background-color-hover: "#11111100"
   ha-checkbox-checked-background-color: "var(--accent-color)"
   ha-checkbox-checked-background-color-hover: "var(--accent-color-dark)"
   ha-checkbox-checked-icon-color: "var(--primary-text-color)"
@@ -130,8 +130,8 @@ midnight:
   ha-radio-option-active-color: "var(--accent-color)"
   ha-radio-option-border-color: "var(--disabled-text-color)"
   ha-radio-option-border-color-hover: "var(--accent-color)"
-  ha-radio-option-background-color: "var(--primary-background-color)"
-  ha-radio-option-background-color-hover: "var(--primary-background-color)"
+  ha-radio-option-background-color: "#11111100"
+  ha-radio-option-background-color-hover: "#11111100"
   ha-radio-option-checked-background-color: "var(--primary-background-color)"
   ha-radio-option-checked-icon-color: "var(--accent-color)"
   # ha-radio-group-required-marker
