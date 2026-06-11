@@ -4,6 +4,7 @@
 #
 midnight:
   accent-color: "#E45E65"
+  accent-color-alpha: "#E45E6599"
   accent-color-dark: "#93535C"
   card-background-color: "var(--primary-background-color)"
   clear-background-color: "var(--secondary-background-color)"
@@ -84,9 +85,18 @@ midnight:
   md-slider-pressed-state-layer-color: "var(--accent-color)"
   md-slider-inactive-track-color: "var(--secondary-background-color)"
   
+  
+  ## Header
+  app-header-background-color: "var(--primary-color)" #blue tab bar on top
+  app-header-selection-bar-color: "var(--accent-color)" #red line below selected tab
+  # app-header-edit-background-color:
+  # app-header-edit-text-color:
+  # app-header-border-bottom:
+  # app-header-text-color:
+  
   ## Unchecked switch
   ha-switch-background-color: "#5B616B"
-  ha-switch-background-color-hover: "#5B616B"
+  ha-switch-background-color-hover: "#7F848E88"
   ha-switch-border-color: "var(--disabled-text-color)"
   ha-switch-thumb-background-color: "var(--disabled-text-color)"
   ha-switch-thumb-background-color-hover: "var(--disabled-text-color)"
@@ -94,7 +104,7 @@ midnight:
 
   ## Checked switch
   ha-switch-checked-background-color: "var(--accent-color-dark)" 
-  ha-switch-checked-background-color-hover: "var(--accent-color-dark)"
+  ha-switch-checked-background-color-hover: "var(--accent-color-alpha)"
   ha-switch-checked-border-color: "var(--accent-color)"
   ha-switch-checked-border-color-hover: "var(--accent-color)"
   ha-switch-checked-thumb-background-color: "var(--accent-color)"
@@ -141,6 +151,11 @@ midnight:
   # ha-radio-option-checked-icon-scale
   # ha-radio-option-control-margin
   # ha-radio-option-heigh
+  
+  ## Slider
+  ha-slider-thumb-color: "var(--accent-color)"
+  ha-slider-indicator-color: "var(--accent-color)"
+  # ha-slider-track-size: "4px"
 
   ## Tooltips, and others
   ha-color-surface-default: "var(--paper-listbox-background-color)"
@@ -149,6 +164,8 @@ midnight:
 # ha-color-surface-default-inverted
 # ha-color-surface-low-inverted
 # ha-color-surface-lower-inverted
+
+  wa-color-surface-raised: "var(--accent-color)" #Top line in notifications panel
 
 
   ## Labels, forms, lists, buttons, etc.
