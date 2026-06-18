@@ -9,11 +9,11 @@
 
 ### Home
 
-![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/demo_midnight.png)
+![Theme - Overview](.docs/demo_midnight.png)
 
 ### Profile
 
-![Theme - Profile](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/profile_midnight.png)
+![Theme - Profile](.docs/profile_midnight.png)
 
 ## Installation
 
