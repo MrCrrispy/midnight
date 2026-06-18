@@ -7,33 +7,13 @@
 
 ## Screenshots
 
-### Overview
+### Home
 
-![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-overview.png)
-
-### Map
-
-![Theme - Map](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-map.png)
-
-### Logbook
-
-![Theme - Logbook](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-logbook.png)
-
-### History
-
-![Theme - History](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-history.png)
-
-### Developer Tools
-
-![Theme - Developer Tools](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-developer-tools.png)
-
-### Configuration
-
-![Theme - Configuration](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-configuration.png)
+![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/demo_midnight.png)
 
 ### Profile
 
-![Theme - Profile](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/theme-profile.png)
+![Theme - Profile](https://raw.githubusercontent.com/home-assistant-community-themes/midnight/master/docs/profile_midnight.png)
 
 ## Installation
 
