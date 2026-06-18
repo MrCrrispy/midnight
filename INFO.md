@@ -9,11 +9,11 @@
 
 ### Home
 
-![Theme - Overview](.docs/demo_midnight.png)
+![Theme - Overview](./docs/demo_midnight.png)
 
 ### Profile
 
-![Theme - Profile](.docs/profile_midnight.png)
+![Theme - Profile](./docs/profile_midnight.png)
 
 ## Installation
 
